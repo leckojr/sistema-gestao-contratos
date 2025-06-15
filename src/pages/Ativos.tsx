@@ -1,3 +1,7 @@
-export function Ativos() {
-  return <h1>Página de Ativos</h1>;
-}
+import React from 'react';
+
+const Ativos = () => {
+  return <div>Ativos</div>;
+};
+
+export default Ativos;

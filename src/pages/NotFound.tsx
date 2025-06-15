@@ -1,12 +1,7 @@
 import React from 'react';
 
-const NotFound: React.FC = () => {
-  return (
-    <main style={{ padding: '2rem' }}>
-      <h1>Página Não Encontrada</h1>
-      <p>A página que você está procurando não existe.</p>
-    </main>
-  );
+const NotFound = () => {
+  return <div>404 - Página não encontrada</div>;
 };
 
 export default NotFound;

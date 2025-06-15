@@ -1,3 +1,7 @@
-export function ContratosVenda() {
-  return <h1>Página de Contratos de Venda</h1>;
-}
+import React from 'react';
+
+const ContratosVenda = () => {
+  return <div>Contratos de Venda</div>;
+};
+
+export default ContratosVenda;

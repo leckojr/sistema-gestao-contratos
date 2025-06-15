@@ -1,3 +1,7 @@
-export function TiposAtivo() {
-  return <h1>Página de Tipos de Ativo</h1>;
-}
+import React from 'react';
+
+const TiposAtivo = () => {
+  return <div>Tipos de Ativo</div>;
+};
+
+export default TiposAtivo;

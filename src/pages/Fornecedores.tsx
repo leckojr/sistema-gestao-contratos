@@ -1,3 +1,7 @@
-export function Fornecedores() {
-  return <h1>Página de Fornecedores</h1>;
-}
+import React from 'react';
+
+const Fornecedores = () => {
+  return <div>Fornecedores</div>;
+};
+
+export default Fornecedores;
