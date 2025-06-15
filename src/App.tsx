@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Layout from './layouts/Layout'; // se você tiver layout
+
+import Layout from './layouts/Layout'; // este é o Layout que criamos
 import Home from './pages/Home';
 import NotFound from './pages/NotFound';
 import Fornecedores from './pages/Fornecedores';
